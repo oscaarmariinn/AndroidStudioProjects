@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Comanda Bar</string>
+
+    <!-- Main -->
+    <string name="titulo_comanda">Comanda</string>
+    <string name="btn_add_producto">Añadir producto</string>
+    <string name="comanda_vacia">La comanda está vacía. Pulsa «Añadir producto».</string>
+    <string name="formato_total">Total: %.2f €</string>
+    <string name="formato_num_lineas">Líneas: %d</string>
+    <string name="formato_cantidad">x%1$d · %2$.2f €/ud</string>
+    <string name="formato_subtotal">%.2f €</string>
+    <string name="producto_anadido">Producto añadido</string>
+    <string name="operacion_cancelada">Operación cancelada</string>
+
+    <!-- Añadir producto -->
+    <string name="titulo_nuevo_producto">Nuevo producto</string>
+    <string name="hint_producto">Nombre del producto</string>
+    <string name="hint_cantidad">Cantidad</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="faltan_datos">FALTAN DATOS</string>
+
+    <!-- Detalle -->
+    <string name="titulo_detalle">Detalle del producto</string>
+    <string name="formato_det_producto">Producto: %s</string>
+    <string name="formato_det_tipo">Tipo: %s</string>
+    <string name="formato_det_cantidad">Cantidad: %d</string>
+    <string name="formato_det_precio">Precio unitario: %.2f €</string>
+    <string name="formato_det_subtotal">Subtotal: %.2f €</string>
+    <string name="volver">VOLVER</string>
+
+    <string-array name="sp_tipos">
+        <item>Selecciona un tipo</item>
+        <item>Bebida</item>
+        <item>Tapa</item>
+        <item>Ración</item>
+        <item>Postre</item>
+    </string-array>
+</resources>

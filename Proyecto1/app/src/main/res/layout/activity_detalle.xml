@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="48dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_detalle"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView android:id="@+id/lbProductoDet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="18sp" />
+    <TextView android:id="@+id/lbTipoDet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="18sp" />
+    <TextView android:id="@+id/lbCantidadDet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="18sp" />
+    <TextView android:id="@+id/lbPrecioDet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="18sp" />
+    <TextView android:id="@+id/lbSubtotalDet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="8dp"
+        android:textSize="18sp" android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVolverDet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/volver" />
+</LinearLayout>

@@ -7,4 +7,86 @@
     android:layout_height="match_parent"
     tools:context=".CrearAlumnoActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/txtNombreAddAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtApellidosAddAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spCiclosAddAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sp_ciclos" />
+
+        <RadioGroup
+            android:id="@+id/rgGrupoAddAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbGrupoAAddAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/grupo_a"
+                android:text="Grupo A" />
+
+            <RadioButton
+                android:id="@+id/rbGrupoBAddAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/grupo_b"
+                android:text="Grupo B" />
+
+            <RadioButton
+                android:id="@+id/rbGrupoCAddAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/grupo_c"
+                android:text="Grupo C" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelarAddAlumno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/cancelar"
+                android:text="Cancelar"
+                 />
+
+            <Button
+                android:id="@+id/btnCrearAddAlumno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/crear"
+                android:text="Crear" />
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
